@@ -1,0 +1,45 @@
+min_directional_confidence: 0.60
+
+labeling:
+  min_body_pct: 0.20
+  bullish_clv: 0.60
+  bearish_clv: 0.40
+
+lookbacks:
+  - 3
+  - 5
+  - 10
+  - 20
+
+validation:
+  daily_min_accuracy: 0.58
+  weekly_min_accuracy: 0.55
+  test_size: 0.25
+
+retrain_alert:
+  daily_new_candles: 50
+  weekly_new_candles: 20
+
+history:
+  daily_bars: 2500
+  weekly_bars: 700
+  forex_daily_min_candles: 1000
+  forex_weekly_min_candles: 260
+
+data:
+  mt5_primary: true
+  csv_fallback: true
+  csv_folder: data/csv_fallback
+
+news:
+  use_forexfactory: true
+  impact: red_only
+  cache_folder: data/news_cache
+
+reports:
+  output_file: reports/bias_forecast_report.xlsx
+  forecast_log: reports/forecast_history.xlsx
+
+models:
+  registry_file: models/model_registry.json
+  version_start: 1.0

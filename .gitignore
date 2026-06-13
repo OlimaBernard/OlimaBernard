@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+models/
+reports/
+logs/
+data/news_cache/
+data/csv_fallback/
+*.pkl
+*.xlsx
+.DS_Store
+.idea/
+.vscode/

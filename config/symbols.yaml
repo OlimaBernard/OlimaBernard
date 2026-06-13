@@ -1,0 +1,16 @@
+forex:
+  - EURUSD
+
+metals:
+  - XAUUSD
+
+indices:
+  - Wall Street 30
+
+synthetics:
+  - Step Index
+  - Volatility 10(1s) Index
+  - Volatility 10 Index
+  - Volatility 100 Index
+  - Volatility 25(1s) Index
+  - Volatility 25 Index

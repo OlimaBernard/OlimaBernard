@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+openpyxl
+joblib
+PyYAML
+MetaTrader5
+requests
+beautifulsoup4
+lxml
